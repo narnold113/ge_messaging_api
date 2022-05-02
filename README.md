@@ -6,8 +6,8 @@ The API is built on Python, Flask and SqlAlchemy with a SQLite temporary backend
 ## Steps to install and run
 1. Clone the public repository https://github.com/narnold113/ge_messaging_api.git
 2. Ensure that docker is installed and the docker daemon is running. See [here] (https://docs.docker.com/config/daemon/)
-3. Run the public docker image `narnold113/ge-message-api:latest`
-	- `docker run -p 5050:5050 -e IS_DEFAULT_DATA=1 narnold113/ge-message-api:latest`
+3. Run the public docker image `narnold113/ge-messaging-api:latest`
+	- `docker run -p 5050:5050 -e IS_DEFAULT_DATA=1 narnold113/ge-messaging-api:latest`
 	- `-e IS_DEFAULT_DATA=1` sets an env var that creates default users and messages on API creation. Omit if you do not want default users and messages
 4. GE Messaging API is now running on localhost:5050
 5. `ctrl + c` to stop running container
